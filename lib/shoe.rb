@@ -8,8 +8,8 @@ class Shoe
     @brand = brand
     # @@brands = BRANDS
     # @@brands << brand
-    if !(BRANDS.include?(@brand))
-      BRANDS << @brand
+    # if !(BRANDS.include?(@brand))
+    #   BRANDS << @brand
     end
   end
 
