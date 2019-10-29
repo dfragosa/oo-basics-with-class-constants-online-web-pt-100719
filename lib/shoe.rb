@@ -10,7 +10,7 @@ class Shoe
     @@brands << brand
     # if !(BRANDS.include?(@brand))
     #   BRANDS << @brand
-        @brand.each_with_index do |shoe, idx|
+        @brand.each do |shoe|
       BRANDS << @brand
     end
   end
