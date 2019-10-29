@@ -8,12 +8,12 @@ class Shoe
     @brand = brand
     @@brands = BRANDS
     @@brands << brand
-    # if !(BRANDS.include?(@brand))
-    #   BRANDS << @brand
-        @brand.each do |shoe|
-          if BRANDS.include?(@brand)
-      BRANDS << shoe
-      end 
+    if !(BRANDS.include?(@brand))
+      BRANDS << @brand
+      #   @brand.each do |shoe|
+      #     if BRANDS.include?(@brand)
+      # BRANDS << shoe
+      # end 
     end
   end
 
