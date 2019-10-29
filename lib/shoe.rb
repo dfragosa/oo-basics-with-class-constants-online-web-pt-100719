@@ -11,7 +11,7 @@ class Shoe
     # if !(BRANDS.include?(@brand))
     #   BRANDS << @brand
         @brand.each_with_index do |shoe, idx|
-      BRANDS << @bra
+      BRANDS << @brand
     end
   end
 
