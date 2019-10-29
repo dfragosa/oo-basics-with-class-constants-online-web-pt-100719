@@ -13,6 +13,7 @@ class Shoe
         @brand.each do |shoe|
           if BRANDS.include?(@brand)
       BRANDS << shoe
+      end 
     end
   end
 
