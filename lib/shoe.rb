@@ -10,6 +10,8 @@ class Shoe
     # @@brands << brand
     # if !(BRANDS.include?(@brand))
     #   BRANDS << @brand
+    BRANDS.each_with_index do |shoe, idx|
+      BRANDS << @ brand
     end
   end
 
