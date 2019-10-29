@@ -11,6 +11,7 @@ class Shoe
     # if !(BRANDS.include?(@brand))
     #   BRANDS << @brand
         @brand.each do |shoe|
+          if BRANDS.include? 
       BRANDS << shoe
     end
   end
