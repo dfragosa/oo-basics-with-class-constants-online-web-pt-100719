@@ -6,13 +6,13 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    # @@brands = BRANDS
-    # @@brands << brand
+    @@brands = BRANDS
+    @@brands << brand
     # if !(BRANDS.include?(@brand))
     #   BRANDS << @brand
-        brand.each_with_index do |shoe, idx|
-      BRANDS << shoe
-    end
+    #     brand.each_with_index do |shoe, idx|
+    #   BRANDS << shoe
+    # end
   end
 
   def cobble
